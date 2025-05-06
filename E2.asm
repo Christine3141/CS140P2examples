@@ -21,7 +21,7 @@ main:
 	lw $t4, jval
 
 	slt $t5, $t3, $t4
-	beq $5, $zero, false
+	beq $t5, $zero, false
 	add $t0, $t1, $t2
 	j exit
 false: 
